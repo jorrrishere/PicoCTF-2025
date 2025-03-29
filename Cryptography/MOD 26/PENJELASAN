@@ -1,0 +1,12 @@
+Cryptography can be easy, do you know what ROT13 is? cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_nSkgmDJE}
+
+Step 1 : Sepertinya kode ini adalah enkripsi dengan rot 13 terlebih dahulu sehingga harus di decode dulu
+Menggunakan codeccs pada python :
+import codecs
+
+cipher_text = "cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_nSkgmDJE}"
+plain_text = codecs.decode(cipher_text, 'rot_13')
+
+print(plain_text)
+
+menghasilkan : picoCTF{next_time_I'll_try_2_rounds_of_rot13_aFxtzQWR}
