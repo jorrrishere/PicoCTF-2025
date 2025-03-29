@@ -1,0 +1,35 @@
+Cryptography can be easy, do you know what ROT13 is? cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}
+
+ROT13 berarti hanya memindahkan huruf sebanyak 13 kali kedepan
+
+a b c d e f g h i j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+
+c(3) + 13 = p (16)
+v(22) + 13 = i (9)
+p = c
+b = o
+P = C
+G = T
+S = F
+a = n
+b = o
+g = t
+g = t
+b = o
+b = o
+o = b
+n = a
+q = d
+b = o
+s = f
+n = a
+c = p
+e = r
+b = o
+o = b
+y = l
+r = e
+z = m
+
+picoCTF{not_too_bad_of_a_problem}
